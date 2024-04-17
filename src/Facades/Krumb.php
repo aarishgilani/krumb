@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
  *
  * @see \Log1x\Crumb\Crumb
  */
-class Crumb extends Facade
+class Krumb extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -18,6 +18,6 @@ class Crumb extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Krumb';
+        return 'krumb';
     }
 }
