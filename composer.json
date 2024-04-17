@@ -36,10 +36,10 @@
   "extra": {
     "acorn": {
       "providers": [
-        "Aarishgilani\\Krumb\\CrumbServiceProvider"
+        "Aarishgilani\\Krumb\\KrumbServiceProvider"
       ],
       "aliases": {
-        "Krumb": "Aarishgilani\\Krumb\\Facades\\Crumb"
+        "Krumb": "Aarishgilani\\Krumb\\Facades\\Krumb"
       }
     }
   },

@@ -21,7 +21,7 @@ $ composer require aarishgilani/krumb
 Publish the breadcrumb configuration file using Acorn:
 
 ```sh
-$ wp acorn vendor:publish --provider="Aarishgilani\Krumb\CrumbServiceProvider"
+$ wp acorn vendor:publish --provider="Aarishgilani\Krumb\KrumbServiceProvider"
 ```
 
 ### Example
