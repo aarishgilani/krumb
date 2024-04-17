@@ -1,10 +1,10 @@
 <?php
 
-namespace Log1x\Crumb;
+namespace Aarish\Krumb;
 
 use Roots\Acorn\ServiceProvider;
 
-class CrumbServiceProvider extends ServiceProvider
+class KrumbServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -13,8 +13,8 @@ class CrumbServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->singleton('crumb', function () {
-            return new Crumb(
+        $this->app->singleton('krumb', function () {
+            return new Krumb(
                 $this->app['config']->get('breadcrumb')
             );
         });

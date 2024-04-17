@@ -1,6 +1,6 @@
 <?php
 
-namespace Log1x\Crumb\Facades;
+namespace Aarish\Krumb\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -18,6 +18,6 @@ class Crumb extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'crumb';
+        return 'Krumb';
     }
 }

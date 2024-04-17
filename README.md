@@ -1,8 +1,4 @@
-# Crumb
-
-![Latest Stable Version](https://img.shields.io/packagist/v/log1x/crumb?style=flat-square)
-![Build Status](https://img.shields.io/github/actions/workflow/status/log1x/crumb/main.yml?branch=master&style=flat-square)
-![Total Downloads](https://img.shields.io/packagist/dt/log1x/crumb?style=flat-square)
+# Krumb
 
 A simple breadcrumb package for Sage 10.
 
@@ -17,7 +13,7 @@ A simple breadcrumb package for Sage 10.
 Install via Composer:
 
 ```bash
-$ composer require log1x/crumb
+$ composer require aarishgilani/krumb
 ```
 
 ## Usage
@@ -25,7 +21,7 @@ $ composer require log1x/crumb
 Publish the breadcrumb configuration file using Acorn:
 
 ```sh
-$ wp acorn vendor:publish --provider="Log1x\Crumb\CrumbServiceProvider"
+$ wp acorn vendor:publish --provider="Aarish\Krumb\CrumbServiceProvider"
 ```
 
 ### Example
@@ -84,7 +80,7 @@ class Breadcrumb extends Component
     vocab="https://schema.org/"
     typeof="BreadcrumbList"
   >
-    @foreach ($items as $item)
+    @foreach ($items() as $item)
       @if (empty($item['url']))
         <span class="p-2 font-medium cursor-default">
           {{ $item['label'] }}

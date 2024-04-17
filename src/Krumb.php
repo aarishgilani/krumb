@@ -1,11 +1,11 @@
 <?php
 
-namespace Log1x\Crumb;
+namespace Aarish\Krumb;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 
-class Crumb
+class Krumb
 {
     /**
      * The breadcrumb items.
