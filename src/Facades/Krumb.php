@@ -1,6 +1,6 @@
 <?php
 
-namespace Aarish\Krumb\Facades;
+namespace Aarishgilani\Krumb\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

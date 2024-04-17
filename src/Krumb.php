@@ -1,6 +1,6 @@
 <?php
 
-namespace Aarish\Krumb;
+namespace Aarishgilani\Krumb;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;

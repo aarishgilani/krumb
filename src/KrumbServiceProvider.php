@@ -1,6 +1,6 @@
 <?php
 
-namespace Aarish\Krumb;
+namespace Aarishgilani\Krumb;
 
 use Roots\Acorn\ServiceProvider;
 

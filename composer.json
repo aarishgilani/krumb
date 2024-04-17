@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Aarish\\Krumb\\": "src/"
+      "Aarishgilani\\Krumb\\": "src/"
     }
   },
   "require": {
@@ -36,10 +36,10 @@
   "extra": {
     "acorn": {
       "providers": [
-        "Aarish\\Krumb\\CrumbServiceProvider"
+        "Aarishgilani\\Krumb\\CrumbServiceProvider"
       ],
       "aliases": {
-        "Krumb": "Aarish\\Krumb\\Facades\\Crumb"
+        "Krumb": "Aarishgilani\\Krumb\\Facades\\Crumb"
       }
     }
   },
